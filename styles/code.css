@@ -3,6 +3,7 @@ pre {
     padding: 1rem;
     border-radius: 10px;
     font-family: Helvetica;
+    width: fit-content;
 }
 
 body {

@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    background-color: #292929;
+}
+
+@keyframes slide-in {
+    from {
+        opacity: 0;
+        transform: translateY(10vh);
+
+    }
+}
+
+.card {
+    background-color: #444444;
+    border-radius: 10px;
+    view-timeline-name: --item-timeline;
+    animation: slide-in both;
+    animation-timeline: --item-timeline;
+    animation-range: contain 0% contain 200%;
+}
